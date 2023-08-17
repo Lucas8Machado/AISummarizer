@@ -1,4 +1,5 @@
 import React from "react";
+import { logo } from "../assets";
 const Hero = () => {
   return (
     <header
@@ -11,7 +12,7 @@ const Hero = () => {
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
         <img
           src="src/assets/bLogo.png"
-          alt="sumz_logo"
+          alt={logo}
           className="w-40 object-contain"
         />
         <button
