@@ -11,8 +11,8 @@ const Hero = () => {
     >
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
         <img
-          src="src/assets/bLogo.png"
-          alt={logo}
+          src={logo}
+          alt="Logo"
           className="w-40 object-contain"
         />
         <button
